@@ -128,7 +128,7 @@ var browserUtil = new function(){
 
     return newFolderName ;
   }
-  
+
 
   this.createDirIfNotExists = function(root, dir){
     if (!self.isDirExists(root + dir)){
@@ -144,7 +144,7 @@ var browserUtil = new function(){
     }
   }
 
-  function stripslashes( str ) { 
+  function stripslashes( str ) {
     return str.replace('/\0/g', '0').replace('/\(.)/g', '$1');
   }
 
@@ -153,7 +153,7 @@ var browserUtil = new function(){
   }
 
   function removeFromStart( sourceString, charToRemove ){
-    var pattern = new RegExp('^' + charToRemove + '+'); 
+    var pattern = new RegExp('^' + charToRemove + '+');
     return sourceString.replace( pattern, '' );
   }
 

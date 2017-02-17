@@ -7,7 +7,7 @@ try{
 }catch(err){}
 
 var mainConfig = Object.assign({
-  user_file_path : '/files',
+  user_file_path : '/files/',
   user_file_abs_path : ''
 }, appFileManagerConfig);
 

@@ -99,9 +99,9 @@ module.exports = new function(){
         result.fileUrl = "";
         result.fileName= "";
       }
-     
+
       var msg = "";
-     
+
       switch (result.errorNumber )
       {
         case 0 :
@@ -128,5 +128,5 @@ module.exports = new function(){
       </script>")
     });
   }
-  
+
 }
